@@ -8,6 +8,7 @@ import project.non_profit_organizations.service.CampaignService;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api/campaigns")
 public class CampaignController {
     @Autowired
